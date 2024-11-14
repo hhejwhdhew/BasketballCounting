@@ -1,0 +1,58 @@
+/*
+--barn-red: #780000ff;
+--fire-brick: #c1121fff;
+--papaya-whip: #fdf0d5ff;
+--prussian-blue: #003049ff;
+--air-superiority-blue: #669bbcff;
+*/
+
+body {
+    margin: 0;
+    background-color:#003049ff;
+    text-align: center;
+    font-family: "Doto", sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    text-align:center;
+    margin-top:20px;
+}
+
+h2, h3{
+    width:160px;
+}
+
+h3 {
+    margin-bottom:10px;
+    font-size:50px;
+    color:#fdf0d5ff;
+}
+
+h2 {
+    margin:0;
+    font-size:90px;
+    background-color: black;
+    color: #c1121fff;
+    font-family: "Doto", sans-serif;
+}
+
+.scoreAdd {
+    display:flex;
+    justify-content: space-evenly;
+    margin-top:15px;
+}
+
+button {
+    padding:5px 10px;
+    border:none;
+    background-color:#c1121fff ;
+    color:#fdf0d5ff;
+    font-family: "Doto", sans-serif;
+    font-size:20px;
+}
+
+.clear{
+    margin-top:40px;
+}
